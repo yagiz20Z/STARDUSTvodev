@@ -1,0 +1,8 @@
+1-rampa
+2-ateşleme
+3-ivmeli ateş
+4-after burnout
+5-apogee			0,0,0,0,0,0
+6-sürüklenme paraşütü
+7-Ana Paraşüt
+8-yere iniş
