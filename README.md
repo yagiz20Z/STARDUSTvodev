@@ -1,8 +1,8 @@
 # STARDUSTvodev
-### STARDUST V2
+## STARDUST V2
 
 
-### StardustV2 telemetri bilgisiyarının OBC kartı üzerinde çalışmalar bu repo yapılacaktır.
+### StardustV2 telemetri bilgisiyarının OBC kartı üzerinde çalışmalar bu repo'da yapılacaktır.
 
 
 ## Kullanılacak Sensörler:
