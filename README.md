@@ -13,10 +13,11 @@
 ## Kullanılacak Sensörler:
 
   
-  ### -BMP581: Basınç verisi alınır.
-  ### -BHI360: İvme verisi alınır.
+  #### -BMP581: Basınç verisi alınır.
+  #### -BHI360: İvme verisi alınır.
 
 
+## IOC:
 ![sensörler şeması](https://github.com/user-attachments/assets/9a84269b-a6c9-462f-92bb-a1df75236688)
 
 ### * bmm350 Kartlar üzerine montajı gerçekleştirilmediği için kullanılmayacaktır
