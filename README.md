@@ -5,6 +5,11 @@
 ### StardustV2 telemetri bilgisiyarının OBC kartı üzerinde çalışmalar bu repo'da yapılacaktır.
 
 
+## Uçuş Algoritması:
+
+![diagram-export-29 05 2025-20_32_12](https://github.com/user-attachments/assets/4fc9d4a7-3928-48a7-913d-bbf70545cd7d)
+
+
 ## Kullanılacak Sensörler:
 
   
