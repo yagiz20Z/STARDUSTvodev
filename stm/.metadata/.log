@@ -16,3 +16,33 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\Ali Ya�
 
 !ENTRY org.eclipse.cdt.core 1 0 2025-05-29 20:31:49.492
 !MESSAGE Indexed 'StarDustV2' (19 sources, 81 headers) in 4.97 sec: 4,555 declarations; 21,874 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0076%)
+!SESSION 2025-05-30 15:35:47.290 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=tr_TR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-05-30 15:35:59.744
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-05-30 15:35:59.747
+!MESSAGE Log4j2 initialized with config file C:\Users\Ali Yağız UZ\Desktop\StarDustVodev\stm\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-05-30 15:36:11.361
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2025-05-30 15:47:40.564 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=tr_TR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-05-30 15:47:49.064
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-05-30 15:47:49.066
+!MESSAGE Log4j2 initialized with config file C:\Users\Ali Yağız UZ\Desktop\StarDustVodev\stm\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-05-30 15:47:58.767
+!MESSAGE Started RMI Server, listening on port 41337
