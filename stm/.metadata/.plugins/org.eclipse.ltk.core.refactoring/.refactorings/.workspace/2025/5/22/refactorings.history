@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;StarDustV2/Core/Src/FlightHandler.c&apos;" deleteContents="false" description="Delete resource &apos;StarDustV2/Core/Src/FlightHandler.c&apos;" element1="/StarDustV2/Core/Src/FlightHandler.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1748627526739"/>&#x0A;<refactoring comment="Delete resource &apos;StarDustV2/Core/Inc/FlightHandler.h&apos;" deleteContents="false" description="Delete resource &apos;StarDustV2/Core/Inc/FlightHandler.h&apos;" element1="/StarDustV2/Core/Inc/FlightHandler.h" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1748627541644"/>
+</session>
