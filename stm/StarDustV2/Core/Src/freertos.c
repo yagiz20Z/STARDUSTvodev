@@ -166,6 +166,9 @@ void StateKontrolf(void const * argument)
   /* Infinite loop */
   for(;;)
   {
+    struct durum;
+
+
     osDelay(1);
   }
   /* USER CODE END StateKontrolf */
