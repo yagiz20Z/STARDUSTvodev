@@ -59,9 +59,10 @@ osThreadId flasMemoHandle;
 /* USER CODE END FunctionPrototypes */
 
 void StartDefaultTask(void const * argument);
-void StartTask04(void const * argument);
-void StartTask03(void const * argument);
-void StartTask05(void const * argument);
+void StateKontrolf(void const * argument);
+void veriF(void const * argument);
+void hataDF(void const * argument);
+void flasMemoF(void const * argument);
 
 void MX_FREERTOS_Init(void); /* (MISRA C 2004 rule 8.1) */
 
@@ -113,19 +114,19 @@ void MX_FREERTOS_Init(void) {
   defaultTaskHandle = osThreadCreate(osThread(defaultTask), NULL);
 
   /* definition and creation of StateKontrol */
-  osThreadDef(StateKontrol, StartTask04, osPriorityIdle, 0, 128);
+  osThreadDef(StateKontrol, StateKontrolf, osPriorityIdle, 0, 128);
   StateKontrolHandle = osThreadCreate(osThread(StateKontrol), NULL);
 
   /* definition and creation of veri */
-  osThreadDef(veri, StartTask03, osPriorityIdle, 0, 128);
+  osThreadDef(veri, veriF, osPriorityIdle, 0, 128);
   veriHandle = osThreadCreate(osThread(veri), NULL);
 
   /* definition and creation of hataD */
-  osThreadDef(hataD, StartTask04, osPriorityIdle, 0, 128);
+  osThreadDef(hataD, hataDF, osPriorityIdle, 0, 128);
   hataDHandle = osThreadCreate(osThread(hataD), NULL);
 
   /* definition and creation of flasMemo */
-  osThreadDef(flasMemo, StartTask05, osPriorityIdle, 0, 128);
+  osThreadDef(flasMemo, flasMemoF, osPriorityIdle, 0, 128);
   flasMemoHandle = osThreadCreate(osThread(flasMemo), NULL);
 
   /* USER CODE BEGIN RTOS_THREADS */
@@ -152,58 +153,76 @@ void StartDefaultTask(void const * argument)
   /* USER CODE END StartDefaultTask */
 }
 
-/* USER CODE BEGIN Header_StartTask04 */
+/* USER CODE BEGIN Header_StateKontrolf */
 /**
 * @brief Function implementing the StateKontrol thread.
 * @param argument: Not used
 * @retval None
 */
-/* USER CODE END Header_StartTask04 */
-void StartTask04(void const * argument)
+/* USER CODE END Header_StateKontrolf */
+void StateKontrolf(void const * argument)
 {
-  /* USER CODE BEGIN StartTask04 */
+  /* USER CODE BEGIN StateKontrolf */
   /* Infinite loop */
   for(;;)
   {
     osDelay(1);
   }
-  /* USER CODE END StartTask04 */
+  /* USER CODE END StateKontrolf */
 }
 
-/* USER CODE BEGIN Header_StartTask03 */
+/* USER CODE BEGIN Header_veriF */
 /**
 * @brief Function implementing the veri thread.
 * @param argument: Not used
 * @retval None
 */
-/* USER CODE END Header_StartTask03 */
-void StartTask03(void const * argument)
+/* USER CODE END Header_veriF */
+void veriF(void const * argument)
 {
-  /* USER CODE BEGIN StartTask03 */
+  /* USER CODE BEGIN veriF */
   /* Infinite loop */
   for(;;)
   {
     osDelay(1);
   }
-  /* USER CODE END StartTask03 */
+  /* USER CODE END veriF */
 }
 
-/* USER CODE BEGIN Header_StartTask05 */
+/* USER CODE BEGIN Header_hataDF */
+/**
+* @brief Function implementing the hataD thread.
+* @param argument: Not used
+* @retval None
+*/
+/* USER CODE END Header_hataDF */
+void hataDF(void const * argument)
+{
+  /* USER CODE BEGIN hataDF */
+  /* Infinite loop */
+  for(;;)
+  {
+    osDelay(1);
+  }
+  /* USER CODE END hataDF */
+}
+
+/* USER CODE BEGIN Header_flasMemoF */
 /**
 * @brief Function implementing the flasMemo thread.
 * @param argument: Not used
 * @retval None
 */
-/* USER CODE END Header_StartTask05 */
-void StartTask05(void const * argument)
+/* USER CODE END Header_flasMemoF */
+void flasMemoF(void const * argument)
 {
-  /* USER CODE BEGIN StartTask05 */
+  /* USER CODE BEGIN flasMemoF */
   /* Infinite loop */
   for(;;)
   {
     osDelay(1);
   }
-  /* USER CODE END StartTask05 */
+  /* USER CODE END flasMemoF */
 }
 
 /* Private application code --------------------------------------------------*/
