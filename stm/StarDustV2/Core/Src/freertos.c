@@ -188,6 +188,9 @@ void StateKontrolF(void const * argument)
 
     state0.durum=0;
     
+    if(state1.ivme == 4.5 ) {
+        state0.durum = 1;
+    }
 
 
 
