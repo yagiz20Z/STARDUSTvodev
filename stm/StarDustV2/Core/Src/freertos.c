@@ -59,7 +59,7 @@ osThreadId flasMemoHandle;
 /* USER CODE END FunctionPrototypes */
 
 void StartDefaultTask(void const * argument);
-void StateKontrolf(void const * argument);
+void StateKontrolF(void const * argument);
 void veriF(void const * argument);
 void hataDF(void const * argument);
 void flasMemoF(void const * argument);
@@ -114,7 +114,7 @@ void MX_FREERTOS_Init(void) {
   defaultTaskHandle = osThreadCreate(osThread(defaultTask), NULL);
 
   /* definition and creation of StateKontrol */
-  osThreadDef(StateKontrol, StateKontrolf, osPriorityIdle, 0, 128);
+  osThreadDef(StateKontrol, StateKontrolF, osPriorityIdle, 0, 128);
   StateKontrolHandle = osThreadCreate(osThread(StateKontrol), NULL);
 
   /* definition and creation of veri */
@@ -153,25 +153,35 @@ void StartDefaultTask(void const * argument)
   /* USER CODE END StartDefaultTask */
 }
 
-/* USER CODE BEGIN Header_StateKontrolf */
+/* USER CODE BEGIN Header_StateKontrolF */
 /**
 * @brief Function implementing the StateKontrol thread.
 * @param argument: Not used
 * @retval None
 */
-/* USER CODE END Header_StateKontrolf */
-void StateKontrolf(void const * argument)
+/* USER CODE END Header_StateKontrolF */
+void StateKontrolF(void const * argument)
 {
-  /* USER CODE BEGIN StateKontrolf */
+  /* USER CODE BEGIN StateKontrolF */
   /* Infinite loop */
   for(;;)
   {
-    struct durum;
+
+    struct state
+    {
+      float ivme;
+      int durum;
+      float presure;
+      float irtifa;
+    };
+    
+
+
 
 
     osDelay(1);
   }
-  /* USER CODE END StateKontrolf */
+  /* USER CODE END StateKontrolF */
 }
 
 /* USER CODE BEGIN Header_veriF */
