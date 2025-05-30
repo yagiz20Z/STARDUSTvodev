@@ -26,6 +26,25 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
+
+    struct state
+    {
+      float ivme;
+      int durum;
+      float presure;
+      float irtifa;
+      
+    };
+    struct state state0;
+    struct state state1;
+    struct state state2;
+    struct state state3;
+    struct state state4;
+    struct state state5;
+    struct state state6;
+    
+
+
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -167,14 +186,9 @@ void StateKontrolF(void const * argument)
   for(;;)
   {
 
-    struct state
-    {
-      float ivme;
-      int durum;
-      float presure;
-      float irtifa;
-    };
+    state0.durum=0;
     
+
 
 
 
