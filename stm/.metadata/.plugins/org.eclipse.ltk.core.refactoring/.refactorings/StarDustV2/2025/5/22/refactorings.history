@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;StarDustV2/Core/Inc/FlightHandler&apos; to &apos;FlightHandler.h&apos;" description="Rename resource &apos;FlightHandler&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Inc/FlightHandler" name="FlightHandler.h" stamp="1748627482918" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;StarDustV2/Core/Src/FlightHandler&apos; to &apos;FlightHandler.c&apos;" description="Rename resource &apos;FlightHandler&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/FlightHandler" name="FlightHandler.c" stamp="1748627488311" updateReferences="true"/>
+</session>
