@@ -189,8 +189,15 @@ void StateKontrolF(void const * argument)
 
     state0.durum=0;
     
-    if(state1.ivme == 4.5 ) {
+    if(state1.ivme >= 4.5 ) {
         state0.durum = 1;
+
+    }
+
+    if (state1.durum==1){
+      if(state2.ivme >= 0 ){
+        state2.durum=1;
+      }
     }
 
 
@@ -251,6 +258,8 @@ void flasMemoF(void const * argument)
   /* Infinite loop */
   for(;;)
   {
+
+    
     osDelay(1);
   }
   /* USER CODE END flasMemoF */
